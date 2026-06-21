@@ -1,0 +1,12 @@
+# .gitignore — files Git should ignore
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+# Secrets
+.env
