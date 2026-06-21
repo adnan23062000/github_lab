@@ -1,0 +1,15 @@
+[1mdiff --git a/calculator.py b/calculator.py[m
+[1mindex cf3f3e7..a5a6602 100644[m
+[1m--- a/calculator.py[m
+[1m+++ b/calculator.py[m
+[36m@@ -8,10 +8,6 @@[m [mdef subtract(a, b):[m
+ def multiply(a, b):[m
+     return a * b[m
+ [m
+[31m-def divide(a, b):[m
+[31m-    if b == 0:[m
+[31m-        raise ValueError("Cannot divide by zero")[m
+[31m-        return a / b[m
+ [m
+ if __name__ == __main__:[m
+     print("2 + 3 =&quot;, add(2, 3)")[m
